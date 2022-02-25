@@ -1,13 +1,10 @@
-import numpy
+import copy
 
 def matrix_rotate(a):
     r=len(a)
     c=len(a[0]) 
-    b=numpy.zeros([r,c],dtype=int)
-    for i in range(r):
-        for j in range (c):
-            b[i][j]=a[i][j]
-
+    b=copy.deepcopy(a)
+    
     for i in range(r):
         if i!=r-1:
             b[i][0]=a[i+1][0]
@@ -21,12 +18,10 @@ def matrix_rotate(a):
                 b[r-1][j]=a[r-1][j+1]       
     return(b)  
           
-a=[[1,0,0],
-   [0,1,0],
-   [0,0,1]]
+a=[[1,2,3],
+   [4,5,6],
+   [7,8,9]]
 
 res=matrix_rotate(a)
 print(res)
-      
-
       
