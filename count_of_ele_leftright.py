@@ -27,10 +27,3 @@ for i in range (0,n):
 d=set(a)-set(b+c)
 print(d,len(d))
     
-
-
-                            
-    
-    
-
- 
