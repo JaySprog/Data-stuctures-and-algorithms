@@ -54,9 +54,3 @@ a.addback(4)
 a.insertafter(a.whole,11)
 a.addback(2)
 a.printvalue()
-
-
-           
-            
-
-        
