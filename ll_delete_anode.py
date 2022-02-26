@@ -44,7 +44,3 @@ a.prepend(4)
 a.prepend(3)
 a.deleteval(3)
 a.printvalue()
-
-
-
-        
