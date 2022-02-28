@@ -49,10 +49,3 @@ a.add(7)
 a.printvalue()
 a.delete(0)
 a.printvalue()
-
-            
-        
-
-        
-            
-        
